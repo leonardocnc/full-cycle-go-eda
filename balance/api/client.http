@@ -1,0 +1,16 @@
+GET http://localhost:3003/balances/5c4e66ba-2042-4248-9df5-3cba4c72b3c3/account HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3003/balances HTTP/1.1
+Content-Type: application/json
+
+{    
+    "account_id": "5c4e66ba-2042-4248-9df5-3cba4c72b3c8",
+    "amount": 20
+}
+
+###
+
+GET http://localhost:3003/health HTTP/1.1
